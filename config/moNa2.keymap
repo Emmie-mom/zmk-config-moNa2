@@ -48,9 +48,9 @@
         default_layer {
             bindings = <
 &lt 5 Q    &kp W           &kp E             &kp R               &kp T                                                    &kp Y        &kp U                &lt 0 I       &kp O            &kp DELETE
-&lt 3 A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G        &trans       &mt LANG_ZENKAKUHANKAKU MINUS  &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt RIGHT_ALT L  &kp P
-&lt 2 Z    &kp X           &kp C             &kp V               &kp B        &mkp MB1     &mkp MB2                       &kp N        &kp M                &kp COMMA     &kp DOT          &kp UNDER
-&kp LCTRL  &kp LEFT_WIN    &kp LEFT_ALT      &lt 3 INT_HENKAN    &lt 1 SPACE  &lt 4 TAB    &kp BACKSPACE                  &lt 1 ENTER                                                      &kp DEL
+&lt 4 A    &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G        &trans       &mt LANG_ZENKAKUHANKAKU MINUS  &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt RIGHT_ALT L  &kp P
+&lt 3 Z    &kp X           &kp C             &kp V               &kp B        &mkp MB1     &mkp MB2                       &kp N        &kp M                &kp COMMA     &kp DOT          &kp UNDER
+&kp LCTRL  &kp LEFT_WIN    &kp LEFT_ALT      &lt 4 INT_HENKAN    &lt 1 SPACE  &lt 4 TAB    &kp BACKSPACE                  &lt 1 ENTER                                                      &kp DEL
             >;
 
             sensor-bindings =
@@ -71,7 +71,7 @@
             bindings = <
 &trans  &trans    &trans     &trans     &trans                       &kp PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
 &trans  &kp LALT  &kp LSHFT  &kp LCTRL  &trans  &trans    &kp FSLH   &kp MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
-&trans  &trans    &trans     &trans     &trans  &trans    &kp DOT    &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
+&trans  &trans    &trans     &trans     &trans  &trans    &kp DOT    &kp ASTERISK  &kp NUMBER_1     &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
 &trans  &trans    &trans     &trans     &trans  &trans    &kp EQUAL  &kp N0                                                           &trans
             >;
         };
