@@ -47,8 +47,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W           &kp E             &kp R               &kp T                                    &kp Y        &kp U                &lt 5 I       &kp O            &kp DELETE
-&kp A             &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G        &trans       &lt 4 MINUS    &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt RIGHT_ALT L  &kp P
+&lt 4 Q           &kp W           &kp E             &kp R               &kp T                                    &kp Y        &kp U                &lt 5 I       &kp O            &kp DELETE
+&lt 1 A           &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G        &trans       &lt 4 MINUS    &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt RIGHT_ALT L  &kp P
 &mt LEFT_SHIFT Z  &kp X           &kp C             &kp V               &kp B        &mkp MB1     &mkp MB2       &kp N        &kp M                &kp COMMA     &kp DOT          &kp UNDER
 &kp LCTRL         &kp LEFT_WIN    &kp LEFT_ALT      &lt 1 INT_HENKAN    &lt 1 SPACE  &lt 2 TAB    &kp BACKSPACE  &lt 1 ENTER                                                      &kp DEL
             >;
@@ -60,10 +60,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &kp F12
+&trans  &trans        &trans          &trans            &trans                    &trans         &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &trans    &trans  &trans         &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans        &trans          &trans            &trans  &trans    &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F12
+&trans  &trans        &trans          &trans            &trans  &trans    &trans  &kp RIGHT_ALT                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
