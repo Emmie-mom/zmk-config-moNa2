@@ -60,10 +60,10 @@
 
         main_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans        &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans        &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &mkp MB1    &mkp MB3  &trans        &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &kp INT_KANA                          &trans
+&trans  &trans  &trans  &trans  &trans                                &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans    &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &mkp MB1    &mkp MB2  &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LANGUAGE_2  &trans      &trans    &kp LANGUAGE_1                          &trans
             >;
         };
 
